@@ -1,0 +1,17 @@
+.example-element {
+background-color: deepskyblue;
+width: 600px;
+height: 300px;
+border: 15px solid blue;
+padding: 16px;
+margin: 25px;
+}
+
+.nav-container {
+background-color: deepskyblue;
+width: 350px;
+height: 125px;
+border: 15px solid blue;
+padding: 16px;
+margin: 25px;
+}
