@@ -1,15 +1,18 @@
 #!/usr/bin/env python
 
+n = 5
 total = 0
-pluses = 0
+start = 0
+s = raw_input()
 
-while pluses < 5:
-   s = raw_input()
-   pluses = pluses + 1
+i = 0
+while i < n:
+   end = start
+   while end < len(s) and s[end] != "+":
+      end = end + 1
 
-   j = 0
-   while j < len(s) and s[j] != "+":
-      j = j + 1
-      total = total + int(s[:j]) + int (s[j + 1:])
+   total = total + int(s[start:end])
+   start = end + 1
+   i = i + 1
 
-   print total
+print total

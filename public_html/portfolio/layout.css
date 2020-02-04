@@ -1,0 +1,144 @@
+.container {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inlineflex {
+  display: inline-flex;
+}
+
+.general {
+  background-color: #1D1D2C;
+  text-align: center;
+  color: #F7F4E9;
+	font-family: 'Carrois Gothic', sans-serif;
+  font-size: 20px;
+	margin-top: 100px;
+	overflow-x: hidden;
+}
+
+html, body, #background { 
+  min-height: 100vh; 
+  min-width: 95vw; 
+  background-color:#1D1D2C;
+}
+
+.page-nav ul {
+  position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #F7F4E9;
+}
+
+li {
+  float: center;
+	list-style-type: none;
+	display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #1D1D2C;
+  text-align: center;
+  width: 25%;
+  padding: 14px 85px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #E40C2B;
+	text-decoration: underline;
+}
+
+h1 {
+	color: #E40C2B;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #E40C2B;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.container-content a:link, a:visited, a:active { 
+	color: #1D1D2C;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.container-content a:hover {
+	text-decoration: underline;
+}
+
+list.li {
+	display: list-item;
+	list-style-type: none;
+}
+
+.row {
+  display: flex;
+}
+
+.an-image {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.row {
+	display: flex;
+}
+
+.image-caption {
+	flex: 33.33%;
+	padding: 10px;
+}
+
+.contact-name, input {
+	background: #1D1D2C;
+	color: #F7F4E9;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-color: #F7F4E9;
+}
+
+.contact-email, input {
+	background: #1D1D2C;
+	color: #F7F4E9;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-color: #F7F4E9;
+}
+
+.contact-phone, input {
+	background: #1D1D2C;
+	color: #F7F4E9;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-color: #F7F4E9;
+}
+
+.contact-message, textarea {
+	background: #1D1D2C;
+	color: #F7F4E9;
+	font-family: 'Carrois Gothic', sans-serif;
+	border-color: #F7F4E9;
+}
+
+.footer-design a:link {
+	color: #F7F4E9;
+	text-decoration: none;
+}
+
+.footer-design a:hover {
+	color: #F7F4E9;
+	text-decoration: underline;
+}

@@ -18,3 +18,4 @@ def selection_sort(a):
 
 if __name__ == "__main__":
    print selection_sort([1, 2, 3, 1, 2, 3])
+

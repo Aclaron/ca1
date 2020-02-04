@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 i = 0
+
 while i < 10:
    s = raw_input()
    i = i + 1
